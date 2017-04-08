@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: #00;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+    padding-bottom: 25px;
+}
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-decoration-style: bold;
+}
+
+
+.container{
+  position: relative;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#box{
+  border: 1px solid;
+  
+  background-color: #9E9E9E;
+  position: relative;
+  margin-bottom: 10px;
+
+
+  }
+#SectionTitle{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+.row{
+    width: 100%;
+   //display: inline-grid;
+}
+p {
+  padding: 10px;
+}
